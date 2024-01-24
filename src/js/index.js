@@ -17,7 +17,7 @@ const state = {};
 
 
 const controlSearch = async (e) => {
-    e.prevenDefault()
+    e.preventDefault()
 
     const query = searchView.getInput();
 

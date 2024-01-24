@@ -5,7 +5,7 @@ export const getInput =() => elements.searchInput.value;
 export const clearInput =() => elements.searchInput.value =" ";
 
 export const clearResult =() => {
-    elements.serchResList.innerHTML = ' ';
+    elements.searchResList.innerHTML = ' ';
     elements.searchResPage.innerHTML = '';
 }
 
