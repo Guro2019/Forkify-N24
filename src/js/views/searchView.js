@@ -40,9 +40,9 @@ const renderRecipe = (recipe) => {
                         </li>
     
     `;
-
-    elements.serchResList.insertAdjacentHTML("beforeend", markup)
+    elements.searchResList.insertAdjacentHTML("beforeend", markup);
 }
+
 const createButton = (page, type) => `
         <button class="btn-inline results__btn--${type}" data-goto="${type === "prev" ? page -1 : page +1 }">
             <span>Page ${type === "prev" ? page -1 : page +1 }</span>
